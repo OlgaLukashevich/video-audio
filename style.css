@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;  
+}
+
+body{
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     height: 98vh;
+     align-items: center;
+}
+
+video{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+
+}
+
+.buttons{
+     display: flex;
+     justify-content: center;     
+     align-items: center;
+
+}
+
+
+div#video_div{
+    opacity: 75%;
+    background-color: #807f7f;
+    width: 642px;
+    margin: 0 auto;
+    padding: 25px 25px 5px 25px;
+    border-radius: 2%;
+}
+video{
+    background-color: #000;        	
+}
+div.buttons{
+    height: 50px;
+    width: 600px;
+    display: inline;
+    position: relative;
+}
+div.buttons img, div.buttons div{
+    display: inline-block;        	
+}
+ span.volume_span{
+     width: 100px;
+ }
+span.volume_stop{
+    width: 50px;
+    height: 50px;
+    display: inline;  
+}
+img.full_span{
+    float: right;
+}
+div.buttons div.buttons_play{
+    float: right;
+    width: 320px;
+}
+#timer{
+    align-items: center;
+    font-weight: bold;
+}
+.rangeTime{
+  width: 642px;
+  -webkit-appearance: none;
+  height: 15px;
+  border-radius: 5px;
+  background: #D3D3D3;
+  outline: none;
+}
+.rangeTime::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+.rangeVolume{
+  float: right;
+  margin: 20px 0;
+  width: 100px;
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: #D3D3D3;
+  outline: none;
+  opacity: 100%;
+}
+.rangeVolume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+button{
+    margin: 10px;
+}
+div.buttons p#timer{
+    float: left;
+    margin: 10px 0;
+    position: relative;
+    font-size: 28px;
+    padding-left: 280px;
+}
+div.buttons .rangeTime{
+    font-weight: bold;
+    float: right;
+    margin: 10px 0;
+}
+.playbackRate span{
+    font-weight: bold;
+    margin: 10px 10px;
+}
+div.playbackRate{
+    display: inline;
+}
+
+div.but{
+    position: relative;
+    right: 79px;
+}
+
+div.unic, .buttons_play{
+    padding-top: 10px;
+}
+
